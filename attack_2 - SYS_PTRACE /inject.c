@@ -59,8 +59,8 @@ main (int argc, char *argv[])
 {
   pid_t                   target;
   struct user_regs_struct regs;
-  int                     syscall;
-  long                    dst;
+  // int                     syscall;
+  // long                    dst;
 
   if (argc != 2)
     {
